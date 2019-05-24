@@ -97,9 +97,9 @@ before_script:
       check_output() {
         ret=$?;
         if [ $ret == 0 ]; then
-            echo -e "${GREEN}>>>>>>    $1 passed    <<<<<<${RESET}";
+            echo -e "${GREEN}>>>>>>    $1 passed12    <<<<<<${RESET}";
         else
-            echo -e "${RED}>>>>>>    $1 FAILED    <<<<<<${RESET}";
+            echo -e "${RED}>>>>>>    $1 FAILED34    <<<<<<${RESET}";
         fi;
         return $ret;
       };
