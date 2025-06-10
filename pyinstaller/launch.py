@@ -1,0 +1,3 @@
+import pyqtgraph
+
+print("Hi")
